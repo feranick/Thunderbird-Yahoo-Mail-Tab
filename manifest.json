@@ -1,0 +1,29 @@
+{
+  "manifest_version": 2,
+  "name": "Yahoo Mail Tab",
+  "description": "__MSG_extensionDescription__",
+  "version": "0.1.7",
+  "author": "Nicola Ferralis",
+  "homepage_url": "https://github.com/feranick/Thunderbird-Yahoo-Mail-Tab/",
+  "applications": {
+    "gecko": {
+      "id": "feranick.yahoo-mail-tab@addons.thunderbird.net",
+      "strict_min_version": "78.0"
+    }
+  },
+  "default_locale": "en",
+  "icons": {
+    "48": "skin/yahoo_mail_icon.svg",
+    "96": "skin/yahoo_mail_icon.svg"
+  },
+  "browser_action": {
+    "allowed_spaces": [ "mail", "calendar", "chat", "tasks", "addressbook" ],
+    "default_title": "Yahoo Mail",
+    "default_icon": "skin/yahoo_mail_icon.svg"
+  },
+  "background": {
+    "scripts": [
+      "src/background.js"
+    ]
+  }
+}
