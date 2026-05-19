@@ -1,10 +1,10 @@
 {
   "extensionName": {
-    "message": "Yahoo Mail Tab",
+    "message": "Onglet Yahoo Mail",
     "description": "Name of the extension."
   },
   "extensionDescription": {
-    "message": "Adds a button to open Yahoo Mail in a new tab.",
+    "message": "Ajoute un bouton pour ouvrir Yahoo Mail dans un nouvel onglet.",
     "description": "Description of the extension."
   },
   "toolbarButtonTitle": {

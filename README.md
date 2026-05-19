@@ -1,6 +1,6 @@
 # Yahoo Mail Tab
 Unofficial Yahoo Mail add-on for Thunderbird, it adds a button in Spaces that opens a Yahoo Mail tab in Thunderbird.
-The [home page](https://addons.mozilla.org/thunderbird/addon/yahoomailtab/) of the extension contains some pictures and reviews.
+The [home page](https://addons.thunderbird.net/en-US/thunderbird/addon/yahoo-mail-spaces-tab/) of the extension contains the latest code.
 
 #### Installing 
 A new Yahoo Mail icon should appear in the top-right corner of Thunderbird. Click to open.

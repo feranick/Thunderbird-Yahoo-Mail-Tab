@@ -1,7 +1,7 @@
 browser.spacesToolbar.addButton('YahooMail', {
-    title: "Yahoo Mail",
+    title: browser.i18n.getMessage("toolbarButtonTitle"),
     defaultIcons: "skin/yahoo_mail_icon.svg",
-    url: "https://chat.google.com/"
+    url: "https://mail.yahoo.com/"
 });
 
 browser.webRequest.onBeforeSendHeaders.addListener(
@@ -14,6 +14,6 @@ browser.webRequest.onBeforeSendHeaders.addListener(
     }
     return { requestHeaders: details.requestHeaders };
   },
-  { urls: ["https://https://mail.yahoo.com/*", "https://*.yahoo.com/*"] },
+  { urls: ["https://mail.yahoo.com/*", "https://*.yahoo.com/*"] },
   ["blocking", "requestHeaders"]
 );

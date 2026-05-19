@@ -1,6 +1,14 @@
 {
+  "extensionName": {
+    "message": "Pestaña de Yahoo Mail",
+    "description": "Name of the extension."
+  },
   "extensionDescription": {
-    "message": "Añade un botón que abre Yahoo Mail en una pestaña nueva.",
+    "message": "Añade un botón para abrir Yahoo Mail en una nueva pestaña.",
     "description": "Description of the extension."
+  },
+  "toolbarButtonTitle": {
+    "message": "Yahoo Mail",
+    "description": "Hover title for the Spaces Toolbar button."
   }
 }

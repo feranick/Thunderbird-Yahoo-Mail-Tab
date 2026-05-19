@@ -1,6 +1,14 @@
 {
+  "extensionName": {
+    "message": "Yahoo Mail-Tab",
+    "description": "Name of the extension."
+  },
   "extensionDescription": {
-    "message": "Fügt eine Schaltfläche zum Öffnen von Yahoo Mail in einem neuen Tab hinzu.",
+    "message": "Fügt eine Schaltfläche hinzu, um Yahoo Mail in einem neuen Tab zu öffnen.",
     "description": "Description of the extension."
+  },
+  "toolbarButtonTitle": {
+    "message": "Yahoo Mail",
+    "description": "Hover title for the Spaces Toolbar button."
   }
 }
