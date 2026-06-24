@@ -1,6 +1,6 @@
 {
   "extensionName": {
-    "message": "Yahoo Mail-Tab",
+    "message": "Yahoo-Mail-Tab",
     "description": "Name of the extension."
   },
   "extensionDescription": {
@@ -10,5 +10,39 @@
   "toolbarButtonTitle": {
     "message": "Yahoo Mail",
     "description": "Hover title for the Spaces Toolbar button."
+  },
+  "optionsTitle": {
+    "message": "Yahoo-Mail-Tab-Einstellungen",
+    "description": "Title of the options page."
+  },
+  "optionsNotificationsLabel": {
+    "message": "Benachrichtigungen für neue E-Mails anzeigen",
+    "description": "Label for the notifications toggle."
+  },
+  "optionsNotificationsDesc": {
+    "message": "Wenn aktiviert, erscheint eine Desktop-Benachrichtigung, sobald die Anzahl ungelesener Yahoo-Mail-Nachrichten steigt.",
+    "description": "Description under the notifications toggle."
+  },
+  "optionsStatusSaved": {
+    "message": "Gespeichert.",
+    "description": "Confirmation shown after a setting is saved."
+  },
+  "notificationTitle": {
+    "message": "Yahoo Mail",
+    "description": "Title shown in the desktop notification."
+  },
+  "notificationNewEmailSingle": {
+    "message": "Sie haben eine neue E-Mail.",
+    "description": "Notification body for a single new email."
+  },
+  "notificationNewEmailMultiple": {
+    "message": "Sie haben $COUNT$ ungelesene E-Mails.",
+    "description": "Notification body for multiple unread emails.",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "12"
+      }
+    }
   }
 }
